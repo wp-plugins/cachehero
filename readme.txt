@@ -51,6 +51,7 @@ Setting up PhantomJS integration in 3 easy steps:
 
 = 1.0.6 =
 
+* First release on Wordpress.org
 * Tweaked layout of frame.php
 * Added screenshots to plugin description
 

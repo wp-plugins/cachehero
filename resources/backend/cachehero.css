@@ -1,0 +1,10 @@
+.cachehero-record {
+	background: #ffffff;
+	border: 1px solid #cccccc;
+	padding: 0 10px 10px;
+	margin: 0 0 10px;
+}
+
+.cachehero-item {
+	display: block;
+}

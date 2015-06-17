@@ -3,7 +3,7 @@
  Plugin Name: CacheHero
  Plugin URI: http://cachehero.com
  Description: Automatically stop link rot on your site. Activate this plugin and you're ready to go!
- Version: 1.0.5
+ Version: 1.0.6
  Author: CacheHero
  Author URI: http://cachehero.com
  */

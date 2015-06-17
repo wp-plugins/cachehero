@@ -50,6 +50,7 @@ Setting up PhantomJS integration in 3 easy steps:
 == Changelog ==
 
 = 1.0.6 =
+
 * Tweaked layout of frame.php
 * Added screenshots to plugin description
 

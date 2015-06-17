@@ -50,20 +50,19 @@
 	<p>
 	<?php
 	if($resource_html) {
-		printf(__('The content below is a cached copy of a previously public asset. If you are the copyright holder and wish to have this copy removed, please <a href="%s" id="contact-us-link">contact us</a>.'), $dmca_url);
+		printf(__('The content below is a cached copy of a previously public page. If you are the copyright holder and wish to have this copy removed, please <a href="%s" id="contact-us-link">contact us</a>.'), $dmca_url);
 	} else {
-		printf(__('The link below leads to a cached copy of a previously public asset. If you are the copyright holder and wish to have this copy removed, please <a href="%s" id="contact-us-link">contact us</a>.'), $dmca_url);
-	}
-	?>
-
-	<?php
-	if(file_exists($screenshot_path)) {
-		printf(__('<br />Click <a href="%s" target="_blank">here</a> to see a cached screenshot of the below webpage.'), $screenshot_url);
+		printf(__('The link below leads to a cached copy of a previously public file. If you are the copyright holder and wish to have this copy removed, please <a href="%s" id="contact-us-link">contact us</a>.'), $dmca_url);
 	}
 	?>
 	</p>
-
+	
 	<ul>
+			<?php
+			if(file_exists($screenshot_path)) {
+				printf(__('<li><strong><a href="%s" target="_blank">Screenshot</a> of the cached page.</strong></li>'), $screenshot_url);
+			}
+			?>
 		<li>
 			<strong><?php _e('Original URL'); ?>:</strong> <a href="<?php esc_attr($resource_url); ?>" target="_blank"><?php echo esc_html($resource_url); ?></a>
 		</li>

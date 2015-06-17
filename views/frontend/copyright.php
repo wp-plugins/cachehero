@@ -111,7 +111,7 @@
 
 		<p>
 			<label for="cachehero-claim"><?php _e('Detail your copyright claim'); ?> <span class="required">*</span></label>
-			<span class="help"><?php _e('Please include, if possible, the url of the page or blog post that links to the cached page'); ?></span>
+			<span class="help"><?php _e('Please include the URL of the page or blog post that contains the link to the cached page.'); ?></span>
 			<textarea class="large-text" id="cachehero-claim" name="cachehero-claim" rows="10"><?php echo esc_textarea($claim); ?></textarea>
 			<?php if(isset($errors['claim'])) { ?>
 			<span class="help required"><?php echo esc_html($errors['claim']); ?></span>
